@@ -32,3 +32,7 @@ function repair(item) {
     durability: 100
   };
 }
+
+function get(item) {
+  return { ...item };
+}
