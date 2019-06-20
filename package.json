@@ -16,7 +16,7 @@
     "url": "https://github.com/TevvinStrong/webtesting-i-challenge/issues"
   },
   "homepage": "https://github.com/TevvinStrong/webtesting-i-challenge#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^24.8.0"
   }
 }
