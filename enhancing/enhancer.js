@@ -12,3 +12,16 @@ function succeed(item) {
   }
   return { ...item };
 }
+
+function fail(item) {
+  const { enhancement } = item;
+  if (enhancement > 16) {
+    item.durability -= 10, item.enhancement -= 1;
+  } else if (enhancement > 14) {
+    item.durability -= 10;
+  } else {
+    item.durability -= 5;
+  }
+
+  return { ...item };
+}
